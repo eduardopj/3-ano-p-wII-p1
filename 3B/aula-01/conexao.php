@@ -7,5 +7,6 @@ $conexao = mysqli_connect($servidor, $usuario, $senha, $banco);
 if(!$conexao){
     die("erro ao conectar".mysqli_connect_error());
 }else{
+    // echo "conectado com sucesso!";
 }
 ?>
