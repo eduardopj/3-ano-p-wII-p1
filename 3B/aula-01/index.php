@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="stylesheet" href="css/fontawesome.min.css">
   <link rel="stylesheet" href="css/all.min.css">
+<link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png?v=1">
 </head>
 <body>
   <nav>

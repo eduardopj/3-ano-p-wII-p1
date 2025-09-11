@@ -281,4 +281,31 @@ nav.paginacao{position:static !important;background:transparent !important;box-s
 @media (max-width: 720px){
   .table-info{ padding-left: 16px; } 
 }
+.section-title .fa-lightbulb{
+  color:#2d3e50; /* apagada */
+  transition: color .25s ease, filter .25s ease;
+  position: relative;
+  cursor: pointer;
+}
+.section-title .fa-lightbulb:hover{
+  color:#ffdb70; /* amarelo mais suave */
+  filter:
+    drop-shadow(0 0 2px #ffdb70)
+    drop-shadow(0 0 4px rgba(255,219,112,.6));
+}
+.section-title .fa-lightbulb:hover::after{
+  content:"";
+  position:absolute;
+  left:50%; top:55%;
+  width:10px; height:10px;
+  transform:translate(-50%,-50%);
+  background:radial-gradient(circle, rgba(255,219,112,.8), rgba(255,219,112,0) 70%);
+  pointer-events:none;
+  animation:lamp-soft 1.5s ease-in-out infinite;
+}
 
+@keyframes lamp-soft{
+  0%   { opacity:.4; transform:translate(-50%,-50%) scale(.9); }
+  50%  { opacity:.9; transform:translate(-50%,-50%) scale(1.1); }
+  100% { opacity:.4; transform:translate(-50%,-50%) scale(.9); }
+}

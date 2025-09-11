@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="stylesheet" href="css/fontawesome.min.css">
   <link rel="stylesheet" href="css/all.min.css">
+<link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png?v=1">
 </head>
 <body>
   <nav>
@@ -101,13 +102,7 @@
     </tbody>
   </table>
 </div>
-<nav class="paginacao" aria-label="Navegação de página">
-  <a class="page-link" href="?p=1">«</a>
-  <a class="page-link active" href="?p=1">1</a>
-  <a class="page-link " href="?p=2">2</a>
-  <a class="page-link" href="?p=3">3</a>
-  <a class="page-link" href="?p=3">»</a>
-</nav>
+
   </main>
 
   <footer>
